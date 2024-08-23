@@ -8,7 +8,7 @@ The libSTARK library implements _scalable_ and _transparent argument of knowledg
 + **scalability**: as an asymptotic function of the number of cycles (T) required by the computation whose integrity is being proved, both of the following conditions hold:
   + **prover scalability**: prover running time scales _quasi-linearly_ in T, i.e., like T poly log T.
   + **verifier scalability**: verifier running time scales _poly-logarithmically_ in T, i.e., like poly log T.
-+ **"post-quantum security"**: the cryptographic primitives that underlie the security of the system are either the existence of a family of collision resistant hash functions (for an interactive system) or common access to a random function (the "random oracle" model for a non-interactive setting); in particular, quantum computers are not known to break system security at time of writing.
++ **"post-quantum security"**: the cryptographic primitives that underlie the security of the system are either the existence of a family of collision-resistant hash functions (for an interactive system) or common access to a random function (the "random oracle" model for a non-interactive setting); in particular, quantum computers are not known to break system security at the time of writing.
 
 ## Disclaimer
 
