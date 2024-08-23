@@ -31,7 +31,7 @@ typedef enum{FFT_OP,IFFT_OP} fft_operation_t;
 class FFT {
 public:
 	/*
-	 * This is the basis over which the polynomial will be evaluated, could be affine.
+	 * This is the basis over which the polynomial will be evaluated, which could be affine.
 	 */
 	Basis basis;
 	/*
@@ -65,7 +65,7 @@ public:
 	 */
 	Element** exps;
 	/*
-	 * This are the subspaces needed to multiply at the WFromUV and UVFromW phases.
+	 * These are the subspaces needed to multiply at the WFromUV and UVFromW phases.
 	 */
 	Element** subspaces;
 #ifdef __GPU
